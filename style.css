@@ -1,0 +1,43 @@
+.wrp {
+    width: 100%;
+    max-width: 1920px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrp .text {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Abel', sans-serif;
+}
+.win1 {
+    background: url(img/bck-1.jpg) 100% 50% no-repeat / cover;
+    background-attachment: fixed;
+}
+.win2 {
+    background: url(img/bck-2.jpg) 100% 50% no-repeat / cover;
+    background-attachment: fixed;
+}
+.win3 {
+    background: url(img/bck-3.jpg) 100% 50% no-repeat / cover;
+    background-attachment: fixed;
+}
+.win4 {
+    background: url(img/bck-4.jpg) 100% 50% no-repeat / cover;
+    background-attachment: fixed;
+}
+.win5 {
+    background: url(img/bck-5.jpg) 100% 50% no-repeat / cover;
+    background-attachment: fixed;
+}
+
+@media (max-width: 992px) {
+    .wrp .text {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 7vmax;
+        font-family: 'Abel', sans-serif;
+    }
+}
